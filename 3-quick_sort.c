@@ -1,6 +1,5 @@
 #include "sort.h"
 
-
 /**
  * quick_sort - sorts an array of integers in ascending order
  * @array: elements to be sorted
@@ -28,8 +27,6 @@ void recursive(int *array, int start, int end, int size)
 		recursive(array, pivot_pos + 1, end, size);
 	}
 }
-
-
 
 /**
  * partition - sort array partition
